@@ -1,0 +1,31 @@
+# Tema basado en notebook-theme-preview.html: académico, minimalista, morado.
+
+[theme]
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap, sans-serif"
+headingFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap, monospace"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap, monospace"
+baseRadius = "4px"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#5B3DC8"
+backgroundColor = "#FCFBFE"
+secondaryBackgroundColor = "#F5F2FA"
+textColor = "#1F1B2D"
+borderColor = "#E4DFEE"
+linkColor = "#5B3DC8"
+codeBackgroundColor = "#F5F2FA"
+chartCategoricalColors = ["#6A4BD6", "#14937F", "#C77E00", "#C2457E", "#3F7BD0"]
+
+[theme.dark]
+primaryColor = "#B39DFF"
+backgroundColor = "#16131E"
+secondaryBackgroundColor = "#1E1A29"
+textColor = "#ECE8F5"
+borderColor = "#2F2940"
+linkColor = "#B39DFF"
+codeBackgroundColor = "#1E1A29"
+chartCategoricalColors = ["#9478F5", "#22AB96", "#C2861A", "#DA6599", "#5A8FE0"]
+
+[browser]
+gatherUsageStats = false
